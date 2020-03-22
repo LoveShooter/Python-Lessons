@@ -28,5 +28,8 @@ enemy['loc_y'] = enemy['loc_y'] + 20
 enemy['health'] = enemy['health'] - 30
 if enemy['health'] < 80:
     enemy['color'] = enemy['color'] = 'yellow'
-    
+
 print(enemy)
+
+print(enemy.keys())
+print(enemy.values())
