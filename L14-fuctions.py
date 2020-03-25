@@ -7,11 +7,6 @@ def napechatat_privetstvie(name):
 def aaa():
     print("AAAA")
 
-
-def summa(x, y):
-    print(x+y)
-
-
 def summa(x, y):
     s = x + y
     return x+y
