@@ -4,4 +4,4 @@ pygame.init()
 screen = pygame.display.set_mode((640, 480))
 
 while True:
-    pygame.display.flip()
+    pygame.display.flip()  #бесконечно зависшее окно
