@@ -51,29 +51,29 @@ while game_over == False:
                 move_up = False
             if event.key == pygame.K_DOWN:
                 move_down = False
-
-        if move_left == True:
-            x -= 10
-            if x < 0:
-                x = 0
-        if move_right == True:
-            x += 10
-            if x > MAX_X - IMG_SIZE:
-                x = MAX_X - IMG_SIZE
-        if move_up == True:
-            y -= 10
-            if y < 0:
-                y = 0
-        if move_down == True:
-            y += 10 
-            if y > MAX_Y - IMG_SIZE:
-                y = MAX_Y - IMG_SIZE
-            
         if event.type == pygame.MOUSEBUTTONDOWN:
             x, y = event.pos
+
+    if move_left == True:
+        x -= 1
+        if x < 0:
+            x = 0
+    if move_right == True:
+        x += 1
+        if x > MAX_X - IMG_SIZE:
+            x = MAX_X - IMG_SIZE
+    if move_up == True:
+        y -= 1
+        if y < 0:
+            y = 0
+    if move_down == True:
+        y += 1
+        if y > MAX_Y - IMG_SIZE:
+            y = MAX_Y - IMG_SIZE
+            
+    
 
     screen.fill(bg_color)
     screen.blit(myimage, (x, y))
     pygame.display.flip()
-
 
