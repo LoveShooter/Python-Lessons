@@ -14,7 +14,7 @@ while True:  #вечный цикл
     else:
         print("Inside ELSE")
         print(myfile.read())
-        sys.exit               #чтобы не получился вечный цикл - выйти из этой бибилотеки.
+        sys.exit               # чтобы не получился вечный цикл - выйти из этой бибилотеки.
     finally:
         print("Inside FINALLY")
 
