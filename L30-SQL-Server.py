@@ -13,7 +13,7 @@ print(x)
 
 print(mydb.list_collection_names())   #Return a list of all collections in your database
 
-collist = mydb.list_collection_names()    #Check if collection exists in DB 
+collist = mydb.list_collection_names()    #Check if collection 'customers' exists in DB 
 if "customers" in collist:
     print("The collection exists.")
 

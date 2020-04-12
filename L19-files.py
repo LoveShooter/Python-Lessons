@@ -3,11 +3,11 @@ inputfile = "../user_names.txt"
 myfile = open(inputfile, mode='r', encoding='utf_8')
 
 for num, line in enumerate(myfile, 1):
-    if "Bosch" in line:
+    if "Bosch" in line:                                      # look for 'Bosch' in user_names.txt file
         print("Line # " + str(num) + " : " + line.strip())
 
 
-password_tolookfor = "petya"
+password_tolookfor = "petya"    # find pass with 'petya'
 
 
 inputfile = "../passwords.txt"
