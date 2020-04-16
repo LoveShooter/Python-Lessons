@@ -8,9 +8,11 @@ def aaa():
     print("AAAA")
 
 def summa(x, y):
-    s = x + y
+    #s = x + y
     return x+y
 
+#def summa(x, y):
+#    return x+y
 
 def factorial(x):
     """Calculate Factorial of number X"""
@@ -20,7 +22,7 @@ def factorial(x):
     return otvet
 
 
-print("---------------------------------")
+print("----------------------------------------")
 napechatat_privetstvie("Max")
 napechatat_privetstvie("Vasya")
 aaa()
